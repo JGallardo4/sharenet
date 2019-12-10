@@ -3,7 +3,7 @@ using Xunit;
 
 namespace sharenet.Tests
 {
-    public class UnitTest1
+    public class UserTests
     {
         [Fact]
         public void Test1()
