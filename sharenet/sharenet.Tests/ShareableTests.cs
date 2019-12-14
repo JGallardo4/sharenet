@@ -5,44 +5,44 @@ using sharenet.Models;
 
 namespace sharenet.Tests
 {
-    public class ShareableTests
-    {
-        [Fact]
-        public void SetInUse_Works()
-        {
-					/// arrange
-					Shareable s = new Shareable();
-					
-					/// assert
-					Assert.False(s.IsInUse());
+	public class ShareableTests
+	{
+		[Fact]
+		public void SetInUse_Works()
+		{
+			/// arrange
+			Shareable s = new Shareable();
 
-					/// act
-					s.SetInUse();
+			/// assert
+			Assert.False(s.IsInUse());
 
-					/// assert
-					Assert.True(s.IsInUse());
-        }
+			/// act
+			s.SetInUse();
 
-				[Fact]
-				public void SetAvailabe_Works()
-				{
-					/// arrange
-					Shareable s = new Shareable();
-					
-					/// assert
-					Assert.True(s.IsAvailable());
+			/// assert
+			Assert.True(s.IsInUse());
+		}
 
-					/// act
-					s.SetInUse();
+		[Fact]
+		public void SetAvailabe_Works()
+		{
+			/// arrange
+			Shareable s = new Shareable();
 
-					/// assert
-					Assert.False(s.IsAvailable());
+			/// assert
+			Assert.True(s.IsAvailable());
 
-					/// act
-					s.SetAvailable();
+			/// act
+			s.SetInUse();
 
-					/// assert
-					Assert.True(s.IsAvailable());
-				}
-    }
+			/// assert
+			Assert.False(s.IsAvailable());
+
+			/// act
+			s.SetAvailable();
+
+			/// assert
+			Assert.True(s.IsAvailable());
+		}
+	}
 }
