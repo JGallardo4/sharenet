@@ -7,6 +7,18 @@ namespace Sharenet.Models
 		private bool InUse = false;
 		private User custodian;
 
+		public Shareable(User custodian)
+		{
+			if (custodian != null)
+			{
+				this.custodian = custodian;
+			}
+			else
+			{
+				throw new ArgumentNullException();
+			}
+		}
+
 		public bool IsInUse() => InUse;
 
 		public bool IsAvailable() => !InUse;

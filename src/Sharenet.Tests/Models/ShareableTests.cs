@@ -1,47 +1,56 @@
 using System;
-using Xunit;
+using NUnit.Framework;
 
 using Sharenet.Models;
 
 namespace Sharenet.Tests.Models
 {
+	[TestFixture]
 	public class ShareableTests
 	{
-		[Fact]
+		[Test]
+		public void Null_Checking()
+		{
+			// arrange
+			User u = null;
+			Shareable s = new Shareable(u);
+		}
+
+		[Test]
 		public void SetInUse_Works()
 		{
-			/// arrange
-			Shareable s = new Shareable();
+			// arrange
+			Shareable s = new Shareable(new User());
 
-			/// assert
+			// assert
 			Assert.False(s.IsInUse());
 
-			/// act
+			// act
 			s.SetInUse();
 
-			/// assert
+			// assert
 			Assert.True(s.IsInUse());
 		}
 
-		[Fact]
+		[Test]
 		public void SetAvailabe_Works()
 		{
-			/// arrange
-			Shareable s = new Shareable();
+			// arrange
+			Shareable s = new Shareable(new User());
 
-			/// assert
+			// assert
 			Assert.True(s.IsAvailable());
 
-			/// act
+			// act
 			s.SetInUse();
 
-			/// assert
+			// assert
 			Assert.False(s.IsAvailable());
 
-			/// act
+			// act
 			s.SetAvailable();
 
-			/// assert
+			// assert
 			Assert.True(s.IsAvailable());
 		}
 	}
