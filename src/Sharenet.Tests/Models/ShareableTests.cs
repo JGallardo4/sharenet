@@ -1,9 +1,9 @@
 using System;
 using Xunit;
 
-using sharenet.Models;
+using Sharenet.Models;
 
-namespace sharenet.Tests
+namespace Sharenet.Tests.Models
 {
 	public class ShareableTests
 	{

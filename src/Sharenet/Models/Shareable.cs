@@ -1,6 +1,6 @@
 using System;
 
-namespace sharenet.Models
+namespace Sharenet.Models
 {
 	public class Shareable
 	{

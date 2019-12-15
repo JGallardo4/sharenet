@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharenet", "sharenet\sharenet.csproj", "{467F04CA-E085-4657-BFD8-5C336D1DD624}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharenet", "Sharenet\Sharenet.csproj", "{467F04CA-E085-4657-BFD8-5C336D1DD624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharenet.Tests", "sharenet.Tests\sharenet.Tests.csproj", "{96381993-91A4-421F-8D32-409F565EEA4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharenet.Tests", "Sharenet.Tests\Sharenet.Tests.csproj", "{96381993-91A4-421F-8D32-409F565EEA4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

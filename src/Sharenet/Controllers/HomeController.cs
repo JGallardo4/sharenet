@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using sharenet.Models;
+using Sharenet.Models;
 
-namespace sharenet.Controllers
+namespace Sharenet.Controllers
 {
     public class HomeController : Controller
     {
