@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace sharenet.Models
+namespace Sharenet.Models
 {
 	public class User
 	{
