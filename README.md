@@ -3,7 +3,7 @@ giving and receiving of useful items and
 materials. The goal is to put into practice
 the idea of a Gift Economy.
 
-Sharenet is part of Project Utopia, an initiative
+Sharenet is part of Project U, an initiative
 to create small societies that achieve a high level
 of independence from the economic system in which they
 exist. 
