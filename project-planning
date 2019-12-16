@@ -10,32 +10,40 @@ Goals:
  
  Proposed System:
  - Item owners submit an entry into the site representing each item
- 	they wish to share with the community. Posts are well categorized,
-	include a picture, title, and description.
+ they wish to share with the community. Posts are well categorized,
+ include a picture, title, and description.
+
  - Other users search for items they need.
+ 
  - Search results can be sorted by proximity.
+ 
  - Items can be held on to for up to a month.
- 	During this time the item is marked as "In Use," and
-	users can apply to take custodianship of it next.
+ During this time the item is marked as "In Use," and
+ users can apply to take custodianship of it next.
+ 
  - After applying for an item, users are put into a queue on a
  first-come-first-served basis.
+ 
  - When a user becomes the temporary custodian of an item (for up
- 	to a month) they are encouraged to perform any maintenance on
-	it that is deemed necessary.
+ to a month) they are encouraged to perform any maintenance on
+ it that is deemed necessary.
+ 
  - When a user is done with an item before the month is done
- 	they can mark it as "Available" in the system.
+ they can mark it as "Available" in the system.
+ 
  - The transfer from the current custodian to the next user in
- 	the queue is arranged between the two.
+ the queue is arranged between the two.
+ 
  - The original owner is able to reclaim their property. They are
- 	put in the queue. Afterwards the queue is closed. When the item
-	reaches the original owner it is removed from the system,
-	with the option to be put back into circulation at a later
-	date should the owner choose to do so.
+ put in the queue. Afterwards the queue is closed. When the item
+ reaches the original owner it is removed from the system,
+ with the option to be put back into circulation at a later
+ date should the owner choose to do so.
 
  Discouraging Abuse:
  - There will be a reputation sytem in place.
  - Users will incur a loss of reputation for the
- 	following actions:
-	- Passing down an item in an unusable state
-	- Being late to part with an item
-	- Refusing to part with an item
+ following actions:
+	 - Passing down an item in an unusable state
+	 - Being late to part with an item
+	 - Refusing to part with an item
