@@ -13,7 +13,12 @@ namespace Sharenet.Tests.Models
 		{
 			// arrange
 			User u = null;
-			Shareable s = new Shareable(u);
+
+			// assert
+			Assert.That(
+				() => {Shareable s = new Shareable(u);},
+				Throws.ArgumentNullException
+			);
 		}
 
 		[Test]

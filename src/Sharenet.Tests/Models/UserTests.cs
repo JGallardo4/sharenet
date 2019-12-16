@@ -17,15 +17,15 @@ namespace Sharenet.Tests.Models
 			Shareable s = new Shareable(a);
 
 			// assert
-			Assert.AreEqual(a, s.GetCustodian());
-			Assert.Contains(s, a.GetShareables);
+			Assert.That(a, Is.EqualTo(s.GetCustodian()));
+			Assert.That(a.GetShareables, Contains.Item(s));
 
 			// act
 			s.TransferTo(b);
 
 			// assert
-			Assert.AreEqual(b, s.GetCustodian());
-			Assert.Contains(s, b.GetShareables);
+			Assert.That(b, Is.EqualTo(s.GetCustodian()));
+			Assert.That(b.GetShareables, Contains.Item(s));
 		}
 	}
 }

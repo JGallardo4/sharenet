@@ -31,12 +31,17 @@ namespace Sharenet.Models
 
 		public void TransferTo(User user)
 		{
+			if (user != null) throw new ArgumentNullException();
+
 			if (custodian != user)
 			{
-				TransferTo(user);
+				custodian.Remove(this);
+				custodian = user;
 			}
-			custodian.Remove(this);
-			custodian = user;
+			else
+			{
+				throw new ArgumentException("User is already the current custodian");
+			}
 		}
 	}
 }
