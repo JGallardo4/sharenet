@@ -1,13 +1,13 @@
 Goals:
- - Create an online Gift Economy.
- - Prevent the unnecessary manufacturing of goods.
- - Prevent the unnecessary waste of goods.
- - Facilitate the exchange of goods and services.
- - Foster a sense of community locally and globally.
- - Allow users to do more with less money.
- - Create a culture of frugality and generosity.
- - Facilitate the decluttering of people's homes.
- - Allow users access to goods they may not afford otherwise.
+	- Create an online Gift Economy.
+	- Prevent the unnecessary manufacturing of goods.
+	- Prevent the unnecessary waste of goods.
+	- Facilitate the exchange of goods and services.
+	- Foster a sense of community locally and globally.
+	- Allow users to do more with less money.
+	- Create a culture of frugality and generosity.
+	- Facilitate the decluttering of people's homes.
+	- Allow users access to goods they may not afford otherwise.
  
  Proposed System:
  - Item owners submit an entry into the site representing each item
@@ -18,53 +18,53 @@ Goals:
 
  - Search results can be sorted by proximity.
 
- - Goods can be shared in two ways:
+ - Goods can be shared in two ways: "Share by Turns" and "Give Away."
 
-  * The owner selects "Share by turns"
-	 
-	 - Items can be held on to for up to a month.
-   During this time the item is marked as "In Use," and
-   users can apply to take custodianship of it next.
+"Share by Turns"
+- Items can be held on to for up to a month.
+During this time the item is marked as "In Use," and
+users can apply to take custodianship of it next.
+
+- After applying for an item, users are put into a queue on a
+first-come-first-served basis.
+
+- When a user becomes the temporary custodian of an item (for up
+to a month) they are encouraged to perform any maintenance on
+it that is deemed necessary.
+
+- When a user is done with an item before the month is done
+they can mark it as "Available" in the system.
+
+- The transfer from the current custodian to the next user in
+the queue is arranged between the two.
+
+- The original owner is able to reclaim their property. They are
+put in the queue. Afterwards the queue is closed. When the item
+reaches the original owner it is removed from the system,
+with the option to be put back into circulation at a later
+date should the owner choose to do so.
   
-	 - After applying for an item, users are put into a queue on a
-   first-come-first-served basis.
- 
-   - When a user becomes the temporary custodian of an item (for up
-   to a month) they are encouraged to perform any maintenance on
-   it that is deemed necessary.
- 
-   - When a user is done with an item before the month is done
-   they can mark it as "Available" in the system.
- 
-   - The transfer from the current custodian to the next user in
-   the queue is arranged between the two.
- 
-   - The original owner is able to reclaim their property. They are
-   put in the queue. Afterwards the queue is closed. When the item
-   reaches the original owner it is removed from the system,
-   with the option to be put back into circulation at a later
-   date should the owner choose to do so.
-  
-	* The owner selects "Give away"
-  - The person who first claims the item gets to keep it. They can
-	decide whether or not to give it away or share it by turns later on.
-	- The original owner does not have a right to claim the item back.
+"Give Away"
+- The person who first claims the item gets to keep it. They can
+decide whether or not to give it away or share it by turns later on.
 
- - For services:
-  - Services can be marked as "Available" or "Not Available"
-	- Users can apply for a service
-	- Service providers can accept an application and arrange 
-	details with the user applying for a service
-	- Service providers can cancel a service at any time.
+- The original owner does not have a right to claim the item back.
 
- Discouraging Abuse:
- - There will be a reputation sytem in place.
- - Users will incur a loss of reputation for the
- following actions:
-	 - Passing down an item in an unusable state
-	 - Being late to part with an item
-	 - Refusing to part with an item
+For services:
+- Services can be marked as "Available" or "Not Available"
+- Users can apply for a service
+- Service providers can accept an application and arrange 
+details with the user applying for a service
+- Service providers can cancel a service at any time.
 
- Encouraging Participation:
- - Reputation can be gained by:
-  - Giving items and services
+Discouraging Abuse:
+- There will be a reputation sytem in place.
+- Users will incur a loss of reputation for the
+following actions:
+- Passing down an item in an unusable state
+- Being late to part with an item
+- Refusing to part with an item
+
+Encouraging Participation:
+- Reputation can be gained by:
+- Giving items and services
