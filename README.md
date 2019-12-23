@@ -15,3 +15,5 @@ less they will achieve a greater level of lifestyle
 satisfaction by focusing their time and energy into
 the things they care about such as their hobbies and
 spending time with their loved ones.
+
+Trello Board: https://trello.com/b/p0HLToRf/sharenet
