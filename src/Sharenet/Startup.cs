@@ -26,8 +26,14 @@ namespace Sharenet
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
-			services.AddDbContext<AppDbContext>(x => x
-				.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+			services.AddDbContextPool<AppDbContext>(x => 
+				x.UseMySql(Configuration.GetConnectionString("DefaultConnection"),
+					mySqlOptions =>
+					{
+						mySqlOptions
+							.ServerVersion(new Version(10, 4, 11), ServerType.MariaDb);
+					})
+			);
 			services.AddControllersWithViews();
 		}
 

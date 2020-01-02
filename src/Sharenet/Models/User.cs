@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Sharenet.Models
 {
 	public class User
 	{
 		private List<Shareable> shareables;
-
+		[Key]
+		public int Id { get; set; }
 		public User()
 		{
 			shareables = new List<Shareable>();

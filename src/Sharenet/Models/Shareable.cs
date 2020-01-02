@@ -1,22 +1,29 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Sharenet.Models
 {
 	public class Shareable
 	{
 		private bool InUse = false;
-		private User custodian;
+		private User User;
+		[Key]
+		public int Id { get; set; }
 
-		public Shareable(User custodian)
+		public Shareable(User user)
 		{
-			if (custodian != null)
+			if (user != null)
 			{
-				this.custodian = custodian;
+				this.User = user;
 			}
 			else
 			{
 				throw new ArgumentNullException();
 			}
+		}
+
+		public Shareable()
+		{
 		}
 
 		public bool IsInUse() => InUse;
@@ -27,16 +34,16 @@ namespace Sharenet.Models
 
 		public void SetAvailable() => InUse = false;
 
-		public User GetCustodian() => custodian;
+		public User GetCustodian() => User;
 
-		public void TransferTo(User user)
+		public void TransferTo(User newUser)
 		{
-			if (user != null) throw new ArgumentNullException();
+			if (newUser == null) throw new ArgumentNullException();
 
-			if (custodian != user)
+			if (newUser != User)
 			{
-				custodian.Remove(this);
-				custodian = user;
+				User.Remove(this);
+				User = newUser;
 			}
 			else
 			{
